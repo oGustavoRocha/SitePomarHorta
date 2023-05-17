@@ -1,0 +1,315 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url("imagens/fundo.jpg");
+  background-size: cover; 
+}
+
+/* inicio do menu */ 
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#37ac37;
+
+  position: ;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  height: 5%;
+  float: left;
+background-color:#37ac37;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+
+}
+
+
+li a:hover {
+  background-color: #088A08;
+  color: white;
+  text-decoration: none;
+}
+   /*fim do menu*/
+
+.caixeta
+{
+    
+    color: white;
+    width:60%;
+    height:350px;
+    position: relative;
+    background:#8caf6f;
+  border: 7px double #088A08;
+
+}
+.caixinha
+{
+    
+    color: white;
+    width:60%;
+    height:780px;
+    position: relative;
+    background:#8caf6f;
+  border: 7px double #088A08;
+
+}
+.caixona
+{
+  color: white;
+    width:30%;
+    height:180%;
+    position: relative;
+    background:white;
+    border: 7px double green;
+    
+    border-color:#000000;
+}
+
+.carousel
+{
+  width: 
+}
+
+
+
+.cx{
+  position:relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+  color: white;
+  text-align: center;
+
+}
+div.primeiro
+{
+  float:left; 
+  display: inline-block;
+  background-color: white;
+  margin-left: 50px;
+ margin-bottom: 10px;
+ border-width: thick;
+  border-style: double;
+  border-color:#37ac37;
+  height: 103%;
+ 
+
+}
+
+div.segundo
+{
+  text-align: center;
+  display: inline-block;
+  float:right;
+  background-color: white; 
+  margin-right:50px;
+  margin-bottom: 20px;
+  border-width: thick;
+  border-style: double;
+  border-color:#37ac37;
+}
+
+div.terceiro
+{
+
+  float:left; 
+  background-color: white;
+  margin-left: 50px;
+  margin-bottom: 7px;
+  height: 82%;
+  border-width: thick;
+  border-style: double;
+  border-color:#37ac37;
+}
+
+div.quarto{
+
+   text-align: center;
+  display: inline-block;
+  float:right;
+  background-color: white; 
+  margin-right:50px;
+  margin-bottom:20px;
+  height: 620px;
+  border-width: thick;
+  border-style: double;
+  border-color:#37ac37;
+}
+
+div.quinto{
+
+  float:left;
+  background-color: white;
+  margin-left: 50px;
+  border-width: thick;
+  border-style: double;
+  border-color:#37ac37;
+}
+
+div.sexto{
+
+   text-align: center;
+  display: inline-block;
+  float:right;
+  background-color: white; 
+  margin-right:50px;
+  border-width: thick;
+  border-style: double;
+  border-color:#37ac37;
+  height: 102%;
+
+}
+
+
+.footer {
+
+ position:relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#37ac37;
+  color: white;
+  text-align: center;
+  
+}
+
+.tamanho{
+  width: 100px;
+  display:inline-block;
+    text-decoration:none;
+    padding:6px 4px;
+
+}
+.tamanho2{
+  width: 100px;
+  display:inline-block;
+    text-decoration:none;
+    padding:6px 4px;
+  }
+
+
+
+.form-control {
+        min-height: 41px;
+    background: #fff;
+    box-shadow: none !important;
+    border-color: #e3e3e3;
+  }
+  .form-control:focus {
+    border-color: #70c5c0;
+  }
+    .form-control, .btn {        
+        border-radius: 2px;
+    }
+  .login-form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 100px 0 30px;    
+  }
+  .login-form form {
+    color: #7a7a7a;
+    border-radius: 2px;
+      margin-bottom: 15px;
+        font-size: 13px;
+        background: #ececec;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        padding: 30px;  
+        position: relative; 
+    }
+  .login-form h2 {
+    font-size: 22px;
+        margin: 35px 0 25px;
+    }
+  .login-form .avatar {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: -50px;
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    z-index: 9;
+    background: #31B404;
+    padding: 15px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  }
+
+  } 
+    .login-form input[type="checkbox"] {
+        margin-top: 2px;
+    }
+    .login-form .btn {        
+        font-size: 16px;
+        font-weight: bold;
+    background:  #298A08;
+    border: none;
+    margin-bottom: 20px;
+    }
+  .login-form .btn:hover, .login-form .btn:focus {
+    background:  #298A08;
+        outline: none !important;
+  }    
+  .login-form a {
+    color: #298A08;
+    text-decoration: underline;
+
+  }
+  .login-form a:hover {
+    text-decoration: none;
+  }
+  .login-form form a {
+    color: #298A08;
+    text-decoration: none;
+  }
+  .login-form form a:hover {
+    text-decoration: underline;
+  }
+
+
+/*card de venda*/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+
+}
+}
+ #8caf6f
